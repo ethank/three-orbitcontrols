@@ -1052,7 +1052,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 		if ( scope.enabled === false ) return;
 
 		//event.preventDefault();
-		//event.stopPropagation();
+		event.stopPropagation();
 
 		switch ( state ) {
 
